@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLADSTART - Positiva nyheter från Sverige</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <div class="logo">
+                    <img src="gladstart-logo.png" alt="GLADSTART" class="logo-image">
+                </div>
+                <p class="tagline" id="tagline">Positiva nyheter från Sverige</p>
+            </div>
+            <button class="subscribe-button">Prenumerera</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 id="newsletter-title">GLADSTART Nyhetsbrev</h1>
+                    <p id="newsletter-description" class="hero-description"></p>
+                    <p class="news-avoidance-message" id="news-avoidance-message"></p>
+                    <div class="signup-form">
+                        <input type="email" placeholder="Din e-postadress" required>
+                        <button id="cta-button" class="primary-button">Prenumerera nu</button>
+                    </div>
+                    <p class="signup-note">Vi skickar <span id="frequency">varje vecka</span>. Avregistrera dig när som helst.</p>
+                    <div class="lead-magnet">
+                        <div class="ebook-image"></div>
+                        <div>
+                            <p class="lead-magnet-text" id="lead-magnet"></p>
+                            <button class="secondary-button">Ladda ner gratis</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="preview">
+            <div class="container">
+                <h2>Positiva nyheter från Sverige</h2>
+                <div class="next-newsletter">
+                    <h3 id="upcoming-title">I nästa nyhetsbrev</h3>
+                    <p class="date" id="upcoming-date"></p>
+                    <ul id="upcoming-topics">
+                        <!-- Topics populated by JavaScript -->
+                    </ul>
+                </div>
+                
+                <h3 class="featured-heading">Senaste positiva nyheterna</h3>
+                <div class="featured-stories" id="featured-stories">
+                    <!-- Stories populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section class="categories">
+            <div class="container">
+                <h2>Vi täcker positiva nyheter inom</h2>
+                <div class="category-tags" id="category-tags">
+                    <!-- Categories populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="container">
+                <h2>Vad våra läsare säger</h2>
+                <div class="testimonials-container" id="testimonials-container">
+                    <!-- Testimonials populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section class="final-cta">
+            <div class="container">
+                <h2>Starta din vecka med positiva nyheter</h2>
+                <p>Anmäl dig till vårt nyhetsbrev och få en dos av positiva svenska nyheter direkt till din inkorg.</p>
+                <div class="signup-form">
+                    <input type="email" placeholder="Din e-postadress" required>
+                    <button class="primary-button" id="final-cta-button">Prenumerera nu</button>
+                </div>
+                <p class="signup-note">Anmäl dig idag, få din första nyhetsbrev denna vecka.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo">
+                        <img src="gladstart-logo.png" alt="GLADSTART" class="logo-image">
+                    </div>
+                    <p>Glädjande nyheter från hela landet</p>
+                </div>
+                <div class="footer-links">
+                    <div>
+                        <h4>Om GLADSTART</h4>
+                        <ul>
+                            <li><a href="#" class="footer-link" data-info="Vårt uppdrag">Vårt uppdrag</a></li>
+                            <li><a href="#" class="footer-link" data-info="Kommer snart">Hur vi väljer nyheter</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Kontakt</h4>
+                        <ul>
+                            <li><a href="mailto:info@gladstart.com">info@gladstart.com</a></li>
+                            <li><a href="#" class="footer-link" data-info="Nyhetsbrev">Prenumerera</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 GLADSTART. Alla rättigheter förbehållna.</p>
+                <div>
+                    <a href="#" class="footer-link" data-info="Integritetspolicy">Integritetspolicy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
