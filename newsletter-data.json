@@ -1,0 +1,65 @@
+{
+  "newsletterInfo": {
+    "title": "GLADSTART Nyhetsbrev",
+    "tagline": "Positiva nyheter från Sverige, direkt till din inkorg",
+    "description": "I en värld där nyheterna ofta fokuserar på problem, kriser och konflikter, erbjuder vi ett annat perspektiv. GLADSTART samlar positiva nyheter från hela Sverige - historier om framsteg, lösningar och människor som gör skillnad.",
+    "frequency": "Varje vecka",
+    "callToAction": "Få positiva nyheter varje vecka",
+    "leadMagnet": "Ladda ner vår gratis guide: \"De 10 mest inspirerande svenska nyheterna från 2024\"",
+    "newsAvoidanceMessage": "Känner du dig överväldigad av nyhetsflödet? GLADSTART erbjuder en balanserad bild av vad som faktiskt fungerar i Sverige."
+  },
+  "upcomingNewsletter": {
+    "title": "I nästa nyhetsbrev",
+    "date": "Fredag, 22 mars 2025",
+    "topics": [
+      "Svenska forskare utvecklar ny teknik för att rena förorenat vatten",
+      "Lokalt initiativ i Göteborg minskar hemlösheten med 30%",
+      "Unik samverkan mellan skolor har halverat mobbning"
+    ]
+  },
+  "testimonials": [
+    {
+      "name": "Sofia Lindberg",
+      "location": "Stockholm",
+      "quote": "GLADSTART är en ljusglimt i min inkorg varje vecka. Det är så uppfriskande att läsa om allt positivt som händer i vårt land.",
+      "positivityScore": 95
+    },
+    {
+      "name": "Anders Nilsson",
+      "location": "Malmö",
+      "quote": "Jag hade nästan slutat läsa nyheter helt, men GLADSTART har hjälpt mig att hålla mig informerad utan att känna hopplöshet.",
+      "positivityScore": 92
+    }
+  ],
+  "featuredStories": [
+    {
+      "title": "Svensk startup säkrar miljard-investering: 'Kommer förändra hållbart mode'",
+      "source": "Breakit",
+      "summary": "Stockholmsbaserade Re:Textile har utvecklat en teknik för 100% återvinning av textilier. Nu investerar internationella aktörer över en miljard kronor i företaget.",
+      "positivityScore": 89,
+      "date": "12 mars 2025"
+    },
+    {
+      "title": "Volontärinsats återställde vår lokala strand",
+      "source": "Community Story",
+      "summary": "Över 200 volontärer samlades för att städa Sunset Beach. Vi samlade in mer än 500 kg skräp och plast. Stranden ser nu vacker ut igen och är säker för djurlivet!",
+      "positivityScore": 92,
+      "date": "10 mars 2025"
+    },
+    {
+      "title": "Svenska elevresultat visar stark uppgång i internationella mätningar",
+      "source": "Dagens Nyheter",
+      "summary": "De senaste PISA-resultaten visar att svenska elever presterar allt bättre i matematik och naturvetenskap, med kraftig förbättring sedan förra mätningen.",
+      "positivityScore": 83,
+      "date": "9 mars 2025"
+    }
+  ],
+  "categories": [
+    "Miljö & Hållbarhet",
+    "Samhällsförbättringar",
+    "Innovationer",
+    "Utbildning",
+    "Kultur & Konst",
+    "Hälsa & Välmående"
+  ]
+}
