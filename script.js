@@ -133,14 +133,9 @@ function populateCategories(categories) {
 }
 
 function setupEventListeners() {
-    // Subscribe buttons
-    const subscribeButtons = document.querySelectorAll('.subscribe-button, .primary-button');
-    subscribeButtons.forEach(button => {
-        button.addEventListener('click', () => {
-            // In a real implementation, this would handle form submission
-            // For now, we'll just show an alert
-            alert('Tack för ditt intresse! Detta skulle skicka dina uppgifter till ett newsletter-system.');
-        });
+    // Header subscribe button - scrolls to form
+    document.querySelector('.subscribe-button').addEventListener('click', () => {
+        document.querySelector('.curated-form-container').scrollIntoView({ behavior: 'smooth' });
     });
     
     // Download lead magnet button
@@ -163,6 +158,23 @@ function setupEventListeners() {
         card.addEventListener('click', () => {
             const title = card.querySelector('.story-title').textContent;
             alert(`Du har klickat på artikeln: ${title}`);
+        });
+    });
+    
+    // Footer links
+    const footerLinks = document.querySelectorAll('.footer-link');
+    footerLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const info = link.getAttribute('data-info');
+            if (info === 'Kommer snart') {
+                alert(`Denna funktion kommer snart till GLADSTART!`);
+            } else if (info === 'Nyhetsbrev') {
+                // Scroll to signup form
+                document.querySelector('.curated-form-container').scrollIntoView({ behavior: 'smooth' });
+            } else {
+                alert(`Du har klickat på: ${link.textContent} (${info})`);
+            }
         });
     });
 }
